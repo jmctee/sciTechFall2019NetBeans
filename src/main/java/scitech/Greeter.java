@@ -16,5 +16,9 @@ public class Greeter {
     public static void main(String[] args) {
         // TODO code application logic here
     }
+
+    String sayHelloTo(String name) {
+        return "Hello " + name;
+    }
     
 }

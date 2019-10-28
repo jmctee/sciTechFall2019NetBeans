@@ -23,4 +23,11 @@ public class GreeterTest {
         
         assertEquals("Did not receive expected greeting: " + result, "Hello", result);
     }
+    
+    @Test
+    public void testSayHelloTo() throws Exception{
+        String result = greeter.sayHelloTo("Tiffany");
+        
+        assertEquals("Did not receive expected greeting: " + result, "Hello Tiffany", result);
+    }
 }
