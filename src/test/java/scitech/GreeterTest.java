@@ -4,10 +4,12 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
-
+ 
 /**
  *
  * @author joemctee
+ *
+ * Tests for Greeter class
  */
 public class GreeterTest {
     private Greeter greeter;

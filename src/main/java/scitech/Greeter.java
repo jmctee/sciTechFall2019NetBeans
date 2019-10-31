@@ -3,6 +3,8 @@ package scitech;
 /**
  *
  * @author joemctee
+ *
+ * Simple class to demonstrate TDD
  */
 public class Greeter {
 
