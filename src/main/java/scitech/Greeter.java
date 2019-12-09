@@ -7,16 +7,15 @@ package scitech;
  * Simple class to demonstrate TDD
  */
 public class Greeter {
-
-    public String sayHello() {
-        return "Hello";
-    }
-
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // TODO code application logic here...
+    }
+
+    public String sayHello() {
+        return "Hello";
     }
 
     String sayHelloTo(String name) {
