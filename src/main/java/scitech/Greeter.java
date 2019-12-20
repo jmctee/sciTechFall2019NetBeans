@@ -25,4 +25,8 @@ public class Greeter {
         return "Hello " + name;
     }
     
+    String sayGreetingTo(String greeting, String name){
+        return greeting + ", " + name;
+    }
+    
 }

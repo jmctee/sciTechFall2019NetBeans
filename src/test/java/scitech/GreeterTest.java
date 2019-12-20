@@ -32,4 +32,13 @@ public class GreeterTest {
         
         assertEquals("Did not receive expected greeting: " + result, "Hello Tiffany", result);
     }
+    
+    @Test
+    public void testSayGreetingTo() throws Exception{
+        String result = greeter.sayGreetingTo("Hola", "Joe");
+        
+        //Note the comma in the greeting...
+        
+        assertEquals("Did not receive expected greeting: " + result, "Hola, Joe", result);
+    }
 }
